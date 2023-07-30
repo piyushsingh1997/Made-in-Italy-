@@ -1,0 +1,8 @@
+site_name: Made in Italy
+theme:
+  name: material
+  nav_style: dark
+
+nav:
+    - Home: 'index.md'
+    - About: 'about.md'
