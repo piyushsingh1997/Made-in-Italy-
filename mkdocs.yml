@@ -29,3 +29,10 @@ theme:
 nav:
     - Table of Contents: 'index.md'
     - Read Me please: 'about.md'
+markdown_extensions:
+  - attr_list
+  - md_in_html
+plugins:
+  - glightbox
+  - search
+  - open-in-new-tab
