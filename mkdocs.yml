@@ -28,7 +28,7 @@ theme:
 
 nav:
     - Table of Contents: 'index.md'
-    - Read Me please: 'about.md'
+    - Read Me: 'about.md'
 markdown_extensions:
   - attr_list
   - md_in_html

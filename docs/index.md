@@ -67,7 +67,7 @@ According to one of the OECD report, world trade in counterfeit goods (luxury ba
 
 <figure markdown>
   ![Image title](counterfiet.PNG){ width="500" }
-  <figcaption>2017 Situation Report on Counterfeiting and Piracy in the EU [13]</figcaption>
+  <figcaption>Source :- 2017 Situation Report on Counterfeiting and Piracy in the EU [13]</figcaption>
 </figure>
 
 An Italian startup, IL Mio World at the forefront of the use of this technology, gives an example of how the blockchain can be successfully implemented in the process of brand authentication. IL MIO World, in fact, embeds Near Field Communication (NFC) chips into luxury products, giving products a unique ID that is then connected to data stored on the blockchain. In this way, a digital fingerprint is registered for physical assets. Through the chip, consumers can claim ownership of their products that is provable and verified at any time on the blockchain. They can then ensure that any second-hand products or products bought through third parties or retailers are authentic. On the other hand – in addition to being able to verify the authenticity of their products and fight counterfeit items – brands can develop exclusive engagement campaigns for the owners of their authentic products and, for the first time, they can track second and third hand purchases of their products and incentivize interactions like real-time product feedback surveys, which increases brand loyalty [[13]](#references).
@@ -90,7 +90,7 @@ to be [[9]](#references).
 and integrity of products. Blockchain technology presents potent solutions to enrich customers understanding of the provenance of products. It offers a robust system to trace the origin, certify authenticity, track custody, and verify the integrity of various items. Through blockchain, customers can have increased confidence in the genuineness and reliability of the products they purchase, promoting transparency and trust in the supply chain [[11]](https://www.sciencedirect.com/science/article/pii/S0007681319300084).
  
 ---
-#### 3.1 One of the possible way to implement Blockchain in supply chains(for ex. COFFEE) to gurantee the provenance.
+#### 3.1 One of the possible way to implement Blockchain in supply chains(for ex. COFFEE) to gurantee the provenance [[11]](#references).
 
  The successful implementation of blockchain in a supply chain to establish provenance knowledge requires three key considerations. Firstly, all stakeholders in the supply chain must reach a consensus and collaborate to implement the blockchain solution together. For instance, in the context of a coffee supply chain, agreement from coffee farmers, processors, distributors, retailers, and even the coffee brand would be necessary to adapt the required processes for blockchain integration.
 
@@ -99,7 +99,7 @@ Secondly, financial investments are crucial to minimize manual data entry and po
 Lastly, customer awareness and accessibility to the provenance information contained in the blockchain are vital. This might entail product labeling adjustments, marketing campaigns, or the development of a user-friendly smartphone app. *For example, a chocolate manufacturer implementing blockchain in their supply chain might need to create packaging that encourages consumers to scan QR codes for detailed information about the chocolate's journey from bean to bar*. [[11]](#references)
 
 ---
-
+#### 3.2 Blockchain Empowering Italian Companies: Enhancing Traceability and Promoting Made in Italy Products [[9]](#references)
 
 Blockchain technology can be a highly useful instrument for italian companies, because it enables them to leverage the quality and excellence of their own production, so that they take on a more prominent role and therefore boost their negotiating power in different value chains. The Ministry of Economic Development, in partnership with IBM, various associations, and relevant companies, initiated a project to evaluate the feasibility of employing blockchain technology for enhancing the traceability and promotion of Made in Italy products. The project aims to explore how blockchain's capabilities can be harnessed to ensure the authenticity and transparency of Italian goods throughout the supply chain, thereby promoting consumer trust and increasing the visibility of Italian products in the global market. what emerged from the project can be summarised as follows [[9]](https://www.mimit.gov.it/images/stories/documenti/IBM-MISE-2019-INGLESE.pdf) :-
 
@@ -113,7 +113,7 @@ and opportunities for differentiating various value transactions.
 share and transform them into new value.
 
 ***
-Some of the ways Blockchain can contribute to this cause:-
+#### 3.2 Some of the ways Blockchain can contribute to this cause:-
 
  * Supply Chain Transparency:- Blockchain can provide transparency throughout the supply chain of Italian products. Each step of the production process, from sourcing raw materials to manufacturing and distribution, can be recorded on the blockchain. This enables consumers to trace the origin of products and verify their authenticity, ensuring that they are genuinely made in Italy [[9]](#references).
  * Smart Contracts for Trade:- Blockchain's smart contracts can facilitate trade agreements between Italian manufacturers and global distributors. These contracts can automate payment terms, shipping conditions, and other terms of the deal, ensuring fair and efficient transactions [[14]](#references).
@@ -122,6 +122,156 @@ Some of the ways Blockchain can contribute to this cause:-
  * Will build consumer Trust and Brand Loyalty :- The transparency and authenticity provided by blockchain technology can build trust among consumers. When they are assured of the genuine origin of Italian products, they are more likely to choose them over other options, leading to increased brand loyalty.
 
 ***
+
+#### 3.3  TrackIT Blockchain Project by the Italian Trade and Investment Agency (ICE)
+The TrackIT blockchain project aims to enhance the distinct Italian character of products abroad. This initiative enables Italian exporting companies in the **agri-food**, **fashion system**, **cosmetics**, and **furniture/design** sectors to trace their production chains through blockchain, all free of charge. By utilizing blockchain tracking, companies can easily and transparently communicate the history of their products, instilling trust and confidence in the final consumers. Moreover, the project helps combat counterfeiting and protect against **Italian Sounding**, safeguarding the authenticity of genuine Italian goods. Additionally, it empowers companies to showcase their commitment to sustainability, allowing them to share the stories behind their products and demonstrate their dedication to responsible practices. Embracing the TrackIT blockchain project provides Italian businesses with a competitive advantage on foreign markets, reaffirming the authenticity and value of their products while fostering stronger connections with international consumers [[20]](#references).
+
+The project's primary objective is to register data related to Made in Italy products or production chains on the blockchain. This registration allows consumers to access reliable information about the product's history and the company's background by scanning a dedicated QR code on a web page dedicated to production steps. To ensure the success of TrackIT blockchain, it collaborates with qualified service providers, offering a range of benefits. These include specialized consultancy for mapping supply chains, managing and maintaining the blockchain traceability system, designing and developing programming interfaces (APIs), and creating a user-friendly interface for foreign consumers [[21]](#references).
+
+By providing transparent and verifiable information through blockchain, TrackIT aims to bolster consumer confidence, combat counterfeiting, and promote the genuine Italian identity of products, giving a competitive edge to participating SMEs in international markets.
+
+> The TrackIT blockchain in Italy uses a private blockchain. A private blockchain is a blockchain that is permissioned, meaning that only authorized users can participate in the network. This makes it a more secure and private blockchain than a public blockchain, which is open to anyone.
+
+
+********
+
+#### 3.4 FederItaly :- A Digital Certificate for Authentic Italian Products that uses Blockchain
+
+FederItaly has partnered with the ORIGYN Foundation, a Swiss non-profit that uses **advanced blockchain technology** to prove the authenticity, identity, and ownership of valuable assets through digital certificates. This partnership aims to protect Italian brands and consumers from counterfeit products. ORIGYN's innovative technology is built on the Internet Computer blockchain, ensuring transparency and security. The "FederItaly 100% Made In Italy" mark will serve as a trusted symbol of authenticity and quality. Companies must undergo a strict validation process, and the resulting digital certificate, stored on the blockchain, provides essential product details accessible through a QR code scan. ORIGYN Foundation is excited to collaborate in safeguarding Italy's finest products and creations [[29]](#references).
+
+
+
+## 4. Technologies based on blockchain technology.
+
+So, here are some technologies based on blockchain technology :-
+
+
+#### 4.1 Green Blockchain 
+
+According to Digiconomist, a well-known energy consumption index, the carbon footprints of cryptocurrencies like Bitcoin and other digital currencies are comparable to those of entire countries. This high energy consumption is primarily due to the process of mining, which involves facilitating nodes on a peer-to-peer network to reach consensus and update the shared ledger. The profitability of mining cryptocurrencies is heavily dependent on energy costs. As a result, miners often seek out the cheapest energy sources, which unfortunately are often fossil fuels. However, over the years, significant innovations have taken place in the blockchain industry, leading to the development of 100% green blockchains and eco-friendly cryptocurrencies. These new solutions aim to minimize energy consumption and reduce carbon footprints associated with digital currencies. By harnessing renewable energy sources such as solar, wind, hydro, or geothermal power, these eco-friendly blockchains strive to mitigate environmental impacts while continuing to provide secure and decentralized services. With these advancements, the blockchain industry can potentially pave the way for a more sustainable and environmentally conscious future. By embracing eco-friendly technologies, we can help address the energy-intensive nature of cryptocurrencies and reduce their environmental impact significantly [[17]](#references).
+
+*A ***"green blockchain"*** refers to a blockchain network or platform that is designed and operated with a strong focus on environmental sustainability and energy efficiency. The term is often used to describe blockchain systems that minimize their carbon footprint and reduce energy consumption, particularly in comparison to traditional blockchain networks like Bitcoin's Proof of Work (PoW) protocol [[22]](#references).*
+
+Pros and Cons of Green blockchain when it comes to Made in Italy :-
+
+| Pros       | Cons                          |
+| :---------: | :----------------------------------: |
+| Environmental Sustainability: The most significant advantage of green blockchains is their reduced carbon footprint and lower energy consumption. By utilizing renewable energy sources and energy-efficient consensus mechanisms, these blockchains contribute to environmental sustainability and help combat climate change.            | Limited Adoption and Network Security: Green blockchains might face challenges in gaining widespread adoption, as they may not be as well-known or established as traditional energy-intensive blockchains like Bitcoin. Lower adoption can also lead to reduced network security, as fewer nodes may be participating in the consensus process.  |
+|Positive Reputation: Green blockchains can attract environmentally conscious users and businesses who prefer platforms that align with their values. This can lead to a positive public image and potentially attract more adoption and investment.             | Technological Complexity: Implementing green blockchain solutions can require complex technological changes, and transitioning from existing energy-intensive blockchains might not always be straightforward. |
+| Lower Costs: Green blockchains can offer cost advantages, particularly in regions where renewable energy sources are abundant and cheaper than traditional fossil fuels. This cost efficiency can make them more competitive and appealing to users and businesses.            | Energy Source Dependence: The effectiveness of a green blockchain's environmental impact depends on the availability and stability of renewable energy sources(for ex:- Solar, Bioenergy, Biofuel, Hydroelectricity etc. ). If renewable energy is not consistently available, the blockchain's sustainability goals may not be fully realized. |
+
+> If you want you can add more Piyush in future
+
+#### 4.2 Hyperledger Fabric
+
+Hyperledger Fabric is an open source enterprise-grade permissioned distributed ledger technology (DLT) platform, designed for use in enterprise contexts, that delivers some key differentiating capabilities over other popular distributed ledger or blockchain platforms. One key point of differentiation is that Hyperledger was established under the Linux Foundation, which itself has a long and very successful history of nurturing open source projects under open governance that grow strong sustaining communities and thriving ecosystems. Hyperledger is governed by a diverse technical steering committee, and the Hyperledger Fabric project by a diverse set of maintainers from multiple organizations. It has a development community that has grown to over 35 organizations and nearly 200 developers since its earliest commits. Fabric has a highly modular and configurable architecture, enabling innovation, versatility and optimization for a broad range of industry use cases including banking, finance, insurance, healthcare, human resources, supply chain and even digital music delivery [[18]](#references).
+
+Fabric, as a sub-project within the Hyperledger ecosystem, provides a versatile distributed ledger technology suited for diverse industrial applications. Its value is derived from several critical pillars. Firstly, Fabric operates as a permissioned blockchain, allowing controlled access and fostering trust among participants. Secondly, it employs chaincode, also known as smart contracts, enabling automated transactions and business logic implementation. Thirdly, its modular architecture offers flexibility, allowing developers to customize and optimize the network. Lastly, Fabric relies on Certificate Authorities (CAs) for identity management, enhancing security and privacy for participants. These pillars collectively make Fabric a valuable and robust solution across blockchain platforms. [[19]](#references)
+
+Pros and Cons of Hyperledger fabric when it comes to Made in Italy [[23]](#references) :-
+
+| Pros       | Cons                          |
+| :---------: | :----------------------------------: |
+| Enhanced Traceability: Hyperledger Fabric enables the recording of every step in the production and supply chain of Made in Italy products. This enhanced traceability allows consumers to verify the origin and authenticity of the products, fostering trust and confidence in the Italian brand.         | Implementation Complexity: Deploying and managing a Hyperledger Fabric network requires technical expertise, which might pose a challenge for some Italian companies with limited resources or technical knowledge. |
+|Anti-Counterfeiting Measures: With its permissioned blockchain model, Hyperledger Fabric can help prevent counterfeit products from infiltrating the supply chain. This feature safeguards the reputation of genuine Made in Italy goods and protects consumers from fraudulent imitations.          | Initial Investment: Integrating Hyperledger Fabric involves initial investments in infrastructure, development, and training. For smaller companies, the cost of adoption might be a barrier to entry. |
+| Supply Chain Efficiency: The use of blockchain technology in the supply chain can improve transparency and efficiency, reducing delays and enhancing collaboration between different stakeholders. This optimization benefits Made in Italy products by streamlining the production and distribution processes. | Governance and Coordination: In a consortium blockchain involving multiple companies, governance and decision-making might require coordination and agreement on network rules and protocols.|
+
+#### 4.3 European Blockchain Services Infrastructure(EBSI)
+The European Blockchain Services Infrastructure (EBSI) is a pan-European initiative that aims to use blockchain technology to create cross-border public services. It is used to improve the efficiency and transparency of public services: EBSI can be used to create a more efficient and transparent way to deliver public services. For example, EBSI could be used to track the movement of goods across borders, or to verify the authenticity of diplomas. Increase trust in public institutions: EBSI can be used to increase trust in public institutions. For example, EBSI could be used to create a tamper-proof record of government decisions, or to provide citizens with a secure way to access their government services. Promote innovation: EBSI can be used to promote innovation in the public sector. For example, EBSI could be used to create new ways to deliver social services, or to improve the way that governments interact with businesses [[24]](#references).
+
+The project seeks to foster interoperability and collaboration between various EU member states, enabling them to share and access data securely while ensuring data privacy and protection. EBSI aims to establish itself in ‘virtually’ every public sector domain that can benefit from blockchain technology. It will be materialized as a network o distributed nodes across Europe,
+leveraging an increasing number of applications focused on
+specific use cases. These use cases are identified and selected each year by the
+Member States (European Blockchain Partnership) and the
+European Commission. [[25]](#references)
+
+Pros and Cons of European Blockchain Services Infrastructure when it comes to Made in Italy  :-
+
+
+| Pros       | Cons                          |
+| :---------: | :----------------------------------: |
+| Transparency and immutability: Blockchain technology offers a decentralized and tamper-resistant ledger, ensuring transparency and immutability of data. This can be beneficial for various applications, such as supply chain management, intellectual property protection, and public recordkeeping. | Scalability: Some blockchain networks may face scalability issues, especially when handling a large number of transactions, leading to potential delays and higher costs.
+|  Security: Blockchain's cryptographic principles provide a high level of security, making it challenging for unauthorized parties to alter or manipulate the stored data.       | Regulatory challenges: The legal and regulatory frameworks surrounding blockchain and cryptocurrencies can be complex and vary from country to country, potentially creating obstacles for widespread adoption. |
+|Cross-border interoperability: A European blockchain infrastructure like EBSI could potentially facilitate cross-border transactions and collaboration, enabling seamless interactions between businesses and governments across member states.  | Interoperability issues: Different blockchain networks may not be fully interoperable, which can hinder the seamless exchange of data and value across different platforms.|
+
+
+#### 4.4 Corda Blockchain
+
+Corda is a distributed ledger technology (DLT) designed for financial institutions and other industries. It enables the development of decentralized applications known as CorDapps, which incorporate distributed ledger functionalities into specific systems such as supply chain, healthcare, stock markets, and insurance. Corda's architecture operates on a need-to-know basis, ensuring transaction privacy. When two parties (Party A and Party B) conduct a transaction and it is verified by the Notary, the transaction becomes an immutable record on both parties' separate databases. Only the involved parties have access to this immutable record. In Corda, a **"State"** represents an immutable object that represents a fact known by one or multiple parties at a specific time. It can hold various types of data, such as stock, loans, emails, addresses, etc. **"Transactions"** in Corda refer to the process of updating the ledger. They follow the unspent transaction output (UTXO) model, where transactions can have multiple inputs and outputs. Transactions update the ledger by marking existing states as history. **"Contracts"** are rules written to ensure that transactions are valid. Transactions must be signed by the involved parties' notaries and be contractually valid, establishing a one-to-one relationship between contract-state. **"Flows"** in Corda represent a sequence of steps that guide a party on how to update the ledger. They determine contract validations and state updates. A **"Notary"** is a trusted and neutral party involved in a transaction, responsible for validating it and preventing double spends [[26]](#references).
+
+-> **Corda has following features**  [[27]](#references) :-
+ 
+ Data privacy and security:- Corda operates as a permissioned blockchain, ensuring that data is shared exclusively among the involved parties in a transaction. Its design prioritizes security, and it requires each entity to be associated with a legal entity and granted access permission before joining the network. This approach enhances confidentiality and trust among the participants, making security a top priority in Corda's architecture.
+
+ Native interoperability:- Corda establishes the groundwork for seamless native interoperability, enabling users of CorDapps to exchange value between different Corda networks securely, privately, and with complete control.
+
+ Multi tenancy:- Virtual nodes have the capability to host multiple distinct identities and networks. They efficiently manage and install the network and applications using a single installer, thereby reducing the overall cost of ownership and simplifying the process of network management.
+
+ Pros and Cons of Corda Blockchain when it comes to Made in Italy  :-
+
+
+ | Pros       | Cons                          |
+| :---------: | :----------------------------------: |
+| Secure Transactions: Corda's focus on privacy and security ensures that financial transactions within the "Made in Italy" ecosystem are safe and reliable. | Limited Adoption: The adoption of blockchain technology, including Corda, might still be relatively low in some industries, which could hinder immediate widespread implementation.
+| Improved Traceability: With Corda's capabilities, the origin and journey of Italian goods can be easily traced, promoting authenticity and trust among consumers. | Scalability: As with any blockchain, Corda's scalability might present challenges as the volume of transactions and network participants increases. |
+|Efficient Trade Finance: Corda can streamline trade finance processes, making it easier for Italian businesses to access capital and manage international transactions.| Implementing and maintaining Corda blockchain solutions could involve upfront and ongoing costs, which might be a consideration for smaller businesses.
+
+
+#### 4.5 Decentrazlized Marketplaces
+The essence of blockchains lies in decentralized marketplaces, where individuals can engage and transact on a global platform without requiring permission from any central authority. Whether it's houses, hot sauce, or t-shirts, these items can be bought and sold **without the need for intermediaries** .In a decentralized marketplace, the key aspect is the matching of buyers and sellers of goods and services. The crucial functionalities, such as executing trades and releasing funds, are governed by smart contracts or programs, eliminating the need for human intervention. This approach ensures that buyers and sellers can agree on terms, and once the agreed-upon conditions are met, the transaction is automatically executed by the program. This characteristic makes decentralized marketplaces permission-less, resistant to censorship, and trustless. Since cryptocurrency is often used as the means of payment, these marketplaces also benefit from a global, 24/7 payment system [[28]](#references).
+
+ | Pros       | Cons                          |
+| :---------: | :----------------------------------: |
+| Increased transparency: Decentralized marketplaces can provide increased transparency into the supply chain, which can help to build trust with consumers and ensure that products are authentic. | Regulatory uncertainty: The regulatory environment for decentralized marketplaces is still evolving. This could pose challenges for businesses that want to use this technology.
+| Direct Transactions: Buyers and sellers interact directly with each other, without the need for intermediaries. This direct peer-to-peer interaction allows for more efficient and cost-effective transactions. | User Experience: The user experience of decentralized marketplaces may not be as polished and user-friendly as traditional platforms. A seamless and intuitive interface is crucial to encouraging mass adoption. |
+| Privacy: Participants can maintain a certain level of privacy as their identities are typically represented by cryptographic keys, ensuring a certain level of anonymity while still ensuring the integrity of the transactions. | Token Volatility: Many decentralized marketplaces use their **native cryptocurrencies or tokens for transactions**, which can be subject to price volatility. This could potentially affect the value of goods and services.
+
+
+
+
+#### 4.6 Italian Blockchain Services Infrastructure(IBSI)
+IBSI, or Italian Blockchain Services Infrastructure, is a national platform that is designed to help businesses and organizations to adopt blockchain technology. It is a collaboration between the Italian government and a number of private sector companies. IBSI, the Italian Blockchain Services Infrastructure, leverages blockchain technology in various ways to enhance different aspects of operations [[30]](#references):-
+
+Provenance Tracking: IBSI utilizes blockchain to track the provenance of products, ensuring their authenticity and adherence to the high-quality standards associated with "Made in Italy." By storing the product's history on the blockchain, it provides an easily verifiable record accessible to anyone.
+
+Payment and Transaction Streamlining: IBSI streamlines payments and transactions through blockchain, resulting in reduced costs and increased efficiency. Blockchain technology creates a secure and tamper-proof ledger for recording transactions, promoting trust among parties involved.
+
+Enhanced Government Services: IBSI improves the delivery of government services by implementing blockchain to store data and records securely. This enhances efficiency, transparency, and accessibility, allowing authorized users to access and share information seamlessly.
+
+ | Pros       | Cons                          |
+| :---------: | :----------------------------------: |
+| IBSI can employ blockchain technology to trace the origin of Made in Italy products, guaranteeing their authenticity and compliance with the renowned high-quality standards. By doing so, it safeguards the reputation of Made in Italy products and serves as a deterrent against counterfeiting.| The technology is still in its **early stages**: IBSI is still in its early stages of development, and there is a risk that the technology may not be mature enough to be used effectively.
+| New opportunities: IBSI could create new opportunities for Made in Italy businesses by enabling them to participate in new markets and develop new business models. This would help to boost the Italian economy and create jobs | The cost of adoption: The cost of adopting IBSI may be prohibitive for some businesses.
+
+#### 4.7 Non-fungible Tokens(NFT)
+
+A non-fungible token (NFT) is a special digital identifier that exists on a blockchain and serves as a proof of ownership and authenticity for a specific digital asset. Unlike cryptocurrencies, NFTs cannot be duplicated, exchanged on a one-to-one basis, or divided into smaller units. The ownership of an NFT is securely recorded on the blockchain and can be transferred from one individual to another, enabling buying and selling of NFTs in the market [[31]](#references).
+
+***
+
+*  **Is NFT really a good idea OR possible way to use it to certify the provenance(example)?**
+
+For example, an NFT could be created for a wheel of **Parmigiano-Reggiano** cheese. The NFT would store information about the cheese, such as its production location, date of creation, ingredients used, and details about the dairy farm. It would also include the certification and quality standards associated with authentic Parmigiano-Reggiano.
+
+When a buyer purchases the wheel of cheese, they would also receive the NFT. The NFT would serve as a proof of ownership for the cheese and would enable the buyer to verify its provenance and authenticity. By checking the NFT, the buyer can ensure that the cheese comes from a legitimate producer in Italy and meets the stringent standards required for genuine Parmigiano-Reggiano.
+
+In this case, the use of NFTs makes it more challenging for counterfeiters to produce fake Made in Italy products, such as counterfeit Parmigiano-Reggiano cheese. If a counterfeiter tried to sell a fake wheel of cheese claiming it to be authentic Parmigiano-Reggiano, they would need to create an NFT for the cheese. However, the NFT would not be valid, as it would not store the correct provenance information, making it evident that the cheese is not genuine.
+
+***Overall, NFTs have the potential to be a valuable tool for guaranteeing provenance in Made in Italy products. However, NFTs alone do not address all the challenges and complexities associated with supply chain management in the "Made in Italy" context.*** 
+
+***
+
+## 5. Which technology is acually the most suitable?
+
+Here, we will compare all the technologies and which technology is the best to ensure made in Italy and it is suitable & possible solution how it can help made in Italy.
+
+## 6. Best Practices Wines and Fashion and 2 use cases for wine and fashion
+
+Here, we will write 2 examples for each how wine and fashion industry using blockchain. Like:- this wine brand is already using blockchain and this fashion brand is already using blockchain to gurantee provenance.
+
+## 7. Conclusion
+
+Here, we will conclude stuffs about our overall survey. 
 
 ## *References*
 
@@ -156,3 +306,33 @@ Some of the ways Blockchain can contribute to this cause:-
 [15] [Exploring blockchain-supported authentication based on online and offline business in organic agricultural supply chain](https://www.sciencedirect.com/science/article/pii/S0360835222007264)
 
 [16] [AI & Blockchain with reference to Intellectual Property Rights(Linkedin)](https://www.linkedin.com/pulse/ai-blockchain-reference-intellectual-property-rights-prity-khastgir/).
+
+[17] [A Brief Guide to Green Blockchain Technology](https://casper.network/en-us/web3/blockchain/green-blockchain/)
+
+[18] [Introduction to Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/en/release-2.5/whatis.html)
+
+[19] [Performance and Scalability Analysis of Ethereum and Hyperledger Fabric](https://ieeexplore.ieee.org/abstract/document/10171380)
+
+[20] [TrackIT blockchain project](https://www.ice.it/it/blockchain)
+
+[21] [TrackIT blockchain, the project of the ICE Agency to protect Made in Italy is born(24 Economoy)](https://www.ilsole24ore.com/art/trackit-blockchain-nasce-progetto-agenzia-ice-tutela-made-italy-AEZME3yB)
+
+[22] [What is Green Blockchain, and why are they important?](https://www.newsbtc.com/news/company/what-is-green-blockchain-and-why-are-they-important/)
+
+[23] [Pros and Cons of Hyperledger Fabric](https://www.devteam.space/blog/pros-and-cons-of-hyperledger-fabric-for-blockchain-networks/)
+
+[24] [What is EBSI?](https://ec.europa.eu/digital-building-blocks/wikis/display/EBSI/What+is+ebsi)
+
+[25] [EBSI:- HARNESS THE POWER OF BLOCKCHAIN SERVICES , INCREASING TRUST THROUGH DATA SECURITY , PRIVACY AND TRANSPARENCY](https://www.itu.int/en/ITU-T/webinars/20201104/Documents/Emilio%20Davila-EBSI%20presentation%20ITU%20ED%2004112020.pdf?csf=1&e=CAHb8b)
+
+[26] [Proof of Concepts of Corda Blockchain Technology Applied on the Supply Chain Area](https://link.springer.com/chapter/10.1007/978-3-031-25942-5_48)
+
+[27] [Why choose Corda ?](https://r3.com/products/corda/#why-choose-corda)
+
+[28] [What Are Decentralized Marketplaces ?](https://decrypt.co/resources/what-are-decentralized-marketplaces)
+
+[29] [Tradition Meets Innovation — A Digital Certificate for Authentic Italian Products](https://medium.com/@ORIGYN-Foundation/tradition-meets-innovation-a-digital-certificate-for-authentic-italian-products-7f61c98e5687)
+
+[30] [IBSI Italian Blockchain Service Infrastructure](https://progettoibsi.org/)
+
+[31] [Non- Fungible tokens](https://en.wikipedia.org/wiki/Non-fungible_token)
