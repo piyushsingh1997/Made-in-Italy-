@@ -251,9 +251,11 @@ A non-fungible token (NFT) is a special digital identifier that exists on a bloc
 
 *  **Is NFT really a good idea OR possible way to use it to certify the provenance(example)?**
 
-For example, an NFT could be created for a wheel of **Parmigiano-Reggiano** cheese. The NFT would store information about the cheese, such as its production location, date of creation, ingredients used, and details about the dairy farm. It would also include the certification and quality standards associated with authentic Parmigiano-Reggiano.
+For example, Let's consider **wheel of Parmigiano-Reggiano cheese**. An NFT could be created for a wheel of Parmigiano-Reggiano cheese. The NFT would store information about the cheese, such as its production location, date of creation, ingredients used, and details about the dairy farm. It would also include the certification and quality standards associated with authentic Parmigiano-Reggiano.
 
 When a buyer purchases the wheel of cheese, they would also receive the NFT. The NFT would serve as a proof of ownership for the cheese and would enable the buyer to verify its provenance and authenticity. By checking the NFT, the buyer can ensure that the cheese comes from a legitimate producer in Italy and meets the stringent standards required for genuine Parmigiano-Reggiano.
+
+**To check for validity, one don't only have to check for the metadata included in the token, but also of the creator of the token itself**.
 
 In this case, the use of NFTs makes it more challenging for counterfeiters to produce fake Made in Italy products, such as counterfeit Parmigiano-Reggiano cheese. If a counterfeiter tried to sell a fake wheel of cheese claiming it to be authentic Parmigiano-Reggiano, they would need to create an NFT for the cheese. However, the NFT would not be valid, as it would not store the correct provenance information, making it evident that the cheese is not genuine.
 
@@ -263,11 +265,75 @@ In this case, the use of NFTs makes it more challenging for counterfeiters to pr
 
 ## 5. Which technology is acually the most suitable?
 
-Here, we will compare all the technologies and which technology is the best to ensure made in Italy and it is suitable & possible solution how it can help made in Italy.
+So, we know blockchain-based traceability solutions enhance the value of products and services by enabling trace and track functionalities. Within a blockchain network, participants can monitor an asset's entire journey from its origin to its destination through the recorded information on the blockchain. To capture relevant asset data, such as location and properties, the blockchain relies on existing methods like IoT, RFID, GPS, among others. Once this data is integrated into the blockchain, participants can easily trace the asset's history [[32]](#references).
 
-## 6. Best Practices Wines and Fashion and 2 use cases for wine and fashion
+In commercial operations, businesses aim to safeguard trade privacy by maintaining confidentiality. To achieve this, companies frequently employ **permissioned blockchains** that involve authorized participants only. One of the key benefits of permissioned blockchains is enhanced security and control. By limiting access to known and authorized participants, permissioned blockchains create a trusted network of participants, reducing the risk of malicious activities and unauthorized access. This **controlled environment** ensures that sensitive business data and operations remain **confidential** and protected. ***Permissioned blockchains can process a higher number of transactions per second compared to public blockchains, thanks to their more streamlined consensus mechanisms and reduced computational overhead(although indeed other factors plays an important role)***. This scalability is crucial for enterprise-level applications that require quick and efficient processing of large volumes of data [[33]](#references).
 
-Here, we will write 2 examples for each how wine and fashion industry using blockchain. Like:- this wine brand is already using blockchain and this fashion brand is already using blockchain to gurantee provenance.
+### 5.1 Why Hyperledger Fabric could be a suitable option ?
+
+***
+Let'c consider three types of blockchains public, private, and permissioned and see the comparative ananalysis [[34]](#references):-
+
+* Public blockchains are open to everyone, allowing any individual to freely participate in the core activities of the blockchain network.
+
+* Private blockchains, on the other hand, have a restricted entry system, permitting only verified participants to join. Additionally, they are controlled centrally, which means only authorized entities possess the rights to modify or delete records on the blockchain.
+
+* Permissioned blockchains strike a balance between public and private variants. They combine characteristics of both types and have gained popularity, especially in enterprise applications. The key advantage lies in their capability to allocate specific permissions to different users on the network, providing greater control and security over the shared data.
+
+Hyperledger Fabric stands out as a superior solution due to its efficient world state database, which is implemented as a flexible and pluggable database system, such as CouchDB or LevelDB. This modular approach allows for various ledger state configurations, enabling optimal performance for different use cases. In supply chain management, Hyperledger Fabric's ability to track provenance efficiently, ensure transparency, and maintain tamper-proof records is highly valuable. Additionally, its private channels enable multiple business parties to coexist on the same network, striking a balance between decentralization and privacy. Overall, Hyperledger Fabric addresses key challenges in supply chain management, making it a valuable choice for these applications.
+
+***
+### 5.2 Food Trust - IBM and Walmart's Blockchain Solution for Supply Chain Management
+
+Walmart's blockchain-based supply chain management system that **relies on Hyperledger fabric**, the Food Trust, enhances transparency and accountability in the food supply chain. It utilizes blockchain technology to create a secure, decentralized database for tracking food products from farm to store. The system's quick traceability helps identify sources of contamination rapidly, enabling targeted recalls and reducing illness risks. The Food Trust has been adopted successfully by major retailers like Carrefour and Nestle, leading to increased efficiency, lower costs, and improved food safety. Suppliers can upload information about not only about products but also **origin**, shipping details, and handling procedures. This information is then stored on the blockchain, creating an immutable record of the product’s journey. Retailers and consumers can access this information through a mobile app or website, allowing them to **trace the origin of their food and verify its authenticity**. The system has been successfully implemented in the US [[35]](#references).
+
+***
+
+Hyperledger Fabric's benefits, such as its permissioned network model, modular architecture, only verified and authorized participants can join the network and efficient data management, make it an excellent choice for supply chain management in "Made in Italy". By using Hyperledger Fabric, businesses can certify the **provenance and track "Made in Italy" products**, ensuring transparency and building trust with stakeholders. The platform's end-to-end traceability allows for verifying the product's origin and manufacturing process, **providing assurance to consumers that they are purchasing authentic "Made in Italy" goods**.
+
+## 6. Some use cases for wine and fashion industry
+***
+
+#### 6.1 Placido VolPone, first winery in the world to certify the Blockchain supply  [[36]](#references)
+
+The world's first case of total transparency and self-certification in the wine production and transformation chain has been achieved through a pioneering solution developed by EY and EzLab. This innovative system allows consumers to easily access crucial information by simply scanning the QR Code on the label using their smartphones, with this technology, consumers can verify:-
+
+Provenance:- They can track the origin of the wine, knowing exactly where it was grown and produced, right from the field to the bottle.
+
+Organoleptic characteristics:- Detailed information about the sensory properties of the wine, such as taste, aroma, and texture, can be readily available.
+
+The entire wine industrial chain:- The entire process, from the cultivation of the grapes to the final product, can be transparently examined, ensuring authenticity and quality.
+
+Furthermore, the system provides insights into various aspects of the supply chain, such as the specific seeds used, the treatments applied, and the distance the product has traveled from the field to the shelves of the point of sale. This level of traceability empowers consumers to make informed decisions and fosters a greater connection between producers and their customers.
+
+*** 
+
+#### **How does it work in a nutshell ?**
+
+Integration of blockchain technology in the Italian wine supply chain involves creating a network of sensors to collect data on weather and soil conditions affecting grape quality. Winegrowers input data about themselves, vineyards, and grape processing. Harvest details, juice extraction, and wine production specifics are added. Entities in wine production add data on suppliers, raw materials, fermentation, additives, and storage conditions. Wholesale distributors and transit cellars contribute data on transportation, processing, and blending. Bottling and labeling details, including counterfeit protection, are logged. Retailers manage storage, shipment, and sales data. A mobile app with QR codes allows consumers to access wine origin information. Blockchain ensures traceability, transparency, and consumer confidence throughout the wine supply chain [[37]](#references).
+
+#### 6.2 Ricci Curbastro 
+
+VeChain is a blockchain platform founded in 2015 by Sunny Lu, aiming to improve supply chain management and business processes through transparency and traceability. It is public and it operates on a permissioned Proof of Authority (PoA) consensus mechanism. This type of blockchain is considered a hybrid approach because it combines elements of public and private blockchains. It operates with a dual-token system, VET and VTHO, and uses a unique PoA 2.0 consensus for fast, secure, and scalable transactions. VeChain integrates IoT technology to track physical items throughout the supply chain and offers a user-friendly BaaS platform called Toolchain for businesses to create custom blockchain applications easily [[38]](#references).
+
+Ricci Curbastro [[39]](#references) uses VChain to track the production and distribution of its wines. VChain is a blockchain-based platform that provides a secure and transparent way to record data. This allows Ricci Curbastro to track the provenance of its wines, ensuring that they are made from grapes grown in Franciacorta and produced according to the highest standards [[40]](#references).
+
+*** 
+
+#### 6.3 Prada
+
+The Aura Blockchain Consortium (world’s first global luxury blockchain), founded by luxury brands LVMH, Prada, and Cartier, it utilizes the Ethereum-based blockchain platform Quorum and focuses on providing product authentication, transparency, and traceability for luxury brands. Interestingly, Aura stands out as an industry consortium where competitors collaborate to address shared challenges related to **authenticity, ownership, warranty, transparency and traceability responsible sourcing, sustainability, and raw material sourcing data**. The main reason behind this blockchain was to fight against counterfeiting. Since most of the value of luxury goods is in the brand itself, ensuring that the products sold on the market are authentic is essential to preserve the prosperity of these companies [[41]](#references).
+
+The consortium uses blockchain technology to create a digital record of the journey of a product from its raw materials to the final consumer. This record is immutable and transparent, meaning that it cannot be changed or tampered with & this information is stored on the blockchain and can be accessed by consumers by scanning a QR code on the product. This allows consumers to verify the authenticity of their products and learn more about their origins. Prada is able to ensure that its products are authentic and that they were produced in a sustainable way. This information can help consumers make informed decisions about the products they buy [[42]](#references).
+
+
+
+#### 6.4 H&M Group
+
+TextileGenes is a blockchain-based platform for traceability in its supply chain. TextileGenesis provides a solution specifically designed for the fashion and textile industry to track and trace materials and products from their origin to the end consumer [[43]](#references).
+
+
+H&M is using blockchain technology for traceability in its supply chain. In 2019, the company partnered with TextileGenesis, a blockchain-based platform, to track the production of man-made cellulose and recycled polyester fibers in its products. This allows consumers to see the entire lifecycle of a product from creation to distribution. H&M plans to expand its blockchain usage further by implementing TextileGenesis for all man-made cellulose and recycled polyester products. This move will enable H&M to trace over 200 million garments, promoting transparency and sustainability in the fashion industry. By leveraging blockchain, H&M ensures the authenticity and sustainable production of its products, empowering consumers to make informed and responsible purchasing decisions[[44]](#references).
 
 ## 7. Conclusion
 
@@ -336,3 +402,29 @@ Here, we will conclude stuffs about our overall survey.
 [30] [IBSI Italian Blockchain Service Infrastructure](https://progettoibsi.org/)
 
 [31] [Non- Fungible tokens](https://en.wikipedia.org/wiki/Non-fungible_token)
+
+[32] [Supply chain transparency through blockchain-based traceability: An overview with demonstration](https://www.sciencedirect.com/science/article/pii/S0360835220305829)
+
+[33] [Traceability in Permissioned Blockchain](https://ieeexplore.ieee.org/abstract/document/8970301)
+
+[34] [Privacy preserving transparent supply chain management through Hyperledger Fabric](https://www.sciencedirect.com/science/article/pii/S2096720922000136#:~:text=Hyperledger%20Fabric%20networks%20are%20structured,related%20to%20the%20supply%20chain.)
+
+[35] [Hyperledger Fabric — Blockchain Solutions to Supply Chain Problems](https://medium.com/@lordmoma/hyperledger-fabric-blockchain-solutions-to-supply-chain-problems-6fe4165866e1)
+
+[36] [Placido VolPone](https://placidovolpone.it/)
+
+[37] [EZ LAB IS THE OFFICIAL DEVELOPER OF THE BLOCKCHAIN TECH DESIGNED FOR AGRI-FOOD SECTOR](https://www.ezlab.it/#blockchain-tech)
+
+[38] [What is VeChain (VET) ?](https://www.bitpanda.com/academy/en/lessons/what-is-vechain-vet/)
+
+[39] [Ricci Curbastro](https://www.riccicurbastro.it/)
+
+[40] [Three Italian wines now blockchain authenticated](https://nederob.medium.com/three-italian-wines-now-blockchain-authenticated-968d147d57cd)
+
+[41] [Prada and Cartier join the LVMH Aura blockchain consortium](https://www.ledgerinsights.com/prada-and-cartier-join-the-lvmh-aura-blockchain-consortium/)
+
+[42] [The first luxury global blockchain that raises the brand experience to the next level](https://auraluxuryblockchain.com/customer-journey)
+
+[43] [TextileGenesis™ is a pioneering traceability platform custom built for the fashion & textile ecosystem](https://textilegenesis.com/)
+
+[44] [H&M Group expands partnership with TextileGenesis](https://hmgroup.com/news/hm-group-expands-partnership-with-textilegenesis/)
