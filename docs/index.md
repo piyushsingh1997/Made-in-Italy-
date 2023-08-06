@@ -30,10 +30,12 @@ are unique and fraud can be effectively prevented since changes of a block in th
 
 All transactions are subjected to verification before being appended to the blockchain. Cryptocurrencies operate on this immutable and decentralized technology, making them resistant to counterfeiting and eliminating the need for central authorities, all secured through robust encryption algorithms. Beyond the financial realm, blockchain's widespread adoption is evident as it rapidly advances in various other domains, revolutionizing industries through its ever-evolving potential. For example,
 
-**How Walmart canada uses Blockchain to solve supply-chain challanges**.[[8]](#references)
+***
+* **How FORD(an automobile manufacturer) uses blockchain to ensure authenticity :-** [[8]](#references).
 
->At one point in time, customers started returning products to Walmart due to issues with their quality. As a result, Walmart faced a significant increase in return rates and refund requests. Identifying the root cause of these problems within their complex supply chain management proved to be a daunting task. To tackle this challenge, they decided to adopt blockchain technology, which provided a solution to track and trace the product journey effectively, helping them address quality issues and improve their overall operations.
+In January 2019, Ford Motor Company launched a blockchain pilot with IBM to ethically source cobalt. They use **Hyperledger Fabric** to demonstrate responsible production, trade, and processing in the supply chain. The goal is to create an open industry-wide network for tracing and validating minerals and materials used in automotive and consumer electronics. By leveraging blockchain technology, they aim to replace traditional third-party audits with a network of validated participants and real-time accessible immutable data. In late January 2020, Ford and IBM further collaborated to use blockchain for tracing cobalt's source to ensure authenticity and quality for electric car batteries. They are using blockchain technology for tracing the source of cobalt, a crucial component in electric car batteries. The main objective was to ensure the authenticity and quality of the cobalt supplies used by Ford. 
 
+***
 
 In this regard, blockchain technology plays an important role to certify the provenance and products that claims to be "Made in Italy". Blockchain plays an important role in combating food fraud, italian sounding and allow italian companies to defend the numerous high quality productions that are made in Italy. Even non-fungiable tokens could also play a crucial role that allows a creation of unique tokens to digial assets like images, videos and music. It represents a programmable ownership of certificates for digital products allowing creators and companies to sell their digital products while maintaining complete control over the rights. Now, blockchain technology plays in important roles in wine industry [[3]](https://www.mdpi.com/2071-1050/13/23/13070), food industry [[4]](https://www.mdpi.com/2305-6290/4/4/27) etc. The success of of this technology primarily depends upon transparency, reliability and immuatability. 
 
@@ -358,7 +360,7 @@ Blockchain technology has already demonstrated its potential to revolutionize nu
 
 [7] [Blockchain :- Michael Nofer, Peter Gomber, Oliver Hinz & Dirk Schiereck](https://link.springer.com/article/10.1007/s12599-017-0467-3)
 
-[8] [How Walmart Canada Uses Blockchain to Solve Supply-Chain Challenges](https://hbr.org/2022/01/how-walmart-canada-uses-blockchain-to-solve-supply-chain-challenges)
+[8] [Ford Blockchain](https://www.blockdata.tech/profiles/ford-blockchain)
 
 [9] [PROTECTING MADE IN ITALY WITH BLOCKCHAIN(textile)](https://www.mimit.gov.it/images/stories/documenti/IBM-MISE-2019-INGLESE.pdf)
 
