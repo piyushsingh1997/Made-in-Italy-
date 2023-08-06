@@ -294,21 +294,21 @@ Hyperledger Fabric's benefits, such as its permissioned network model, modular a
 ## 6. Some use cases for wine and fashion industry
 ***
 
-#### 6.1 Placido VolPone, first winery in the world to certify the Blockchain supply  [[36]](#references)
+#### 6.1 Placido VolPone, first winery in the world to certify the Blockchain supply  
 
-The world's first case of total transparency and self-certification in the wine production and transformation chain has been achieved through a pioneering solution developed by EY and EzLab. This innovative system allows consumers to easily access crucial information by simply scanning the QR Code on the label using their smartphones, with this technology, consumers can verify:-
+The world's first case of total transparency and self-certification in the wine production and transformation chain has been achieved through a pioneering solution developed by EY and EzLab. This innovative system allows consumers to easily access crucial information by simply scanning the QR Code on the label using their smartphones, with this technology, consumers can verify [[36]](#references) :-
 
-Provenance:- They can track the origin of the wine, knowing exactly where it was grown and produced, right from the field to the bottle.
+* Provenance:- They can track the origin of the wine, knowing exactly where it was grown and produced, right from the field to the bottle.
 
-Organoleptic characteristics:- Detailed information about the sensory properties of the wine, such as taste, aroma, and texture, can be readily available.
+* Organoleptic characteristics:- Detailed information about the sensory properties of the wine, such as taste, aroma, and texture, can be readily available.
 
-The entire wine industrial chain:- The entire process, from the cultivation of the grapes to the final product, can be transparently examined, ensuring authenticity and quality.
+* The entire wine industrial chain:- The entire process, from the cultivation of the grapes to the final product, can be transparently examined, ensuring authenticity and quality.
 
 Furthermore, the system provides insights into various aspects of the supply chain, such as the specific seeds used, the treatments applied, and the distance the product has traveled from the field to the shelves of the point of sale. This level of traceability empowers consumers to make informed decisions and fosters a greater connection between producers and their customers.
 
 *** 
 
-#### **How does it work in a nutshell ?**
+* **How does it work in a nutshell ?**
 
 Integration of blockchain technology in the Italian wine supply chain involves creating a network of sensors to collect data on weather and soil conditions affecting grape quality. Winegrowers input data about themselves, vineyards, and grape processing. Harvest details, juice extraction, and wine production specifics are added. Entities in wine production add data on suppliers, raw materials, fermentation, additives, and storage conditions. Wholesale distributors and transit cellars contribute data on transportation, processing, and blending. Bottling and labeling details, including counterfeit protection, are logged. Retailers manage storage, shipment, and sales data. A mobile app with QR codes allows consumers to access wine origin information. Blockchain ensures traceability, transparency, and consumer confidence throughout the wine supply chain [[37]](#references).
 
@@ -333,11 +333,14 @@ The consortium uses blockchain technology to create a digital record of the jour
 TextileGenes is a blockchain-based platform for traceability in its supply chain. TextileGenesis provides a solution specifically designed for the fashion and textile industry to track and trace materials and products from their origin to the end consumer [[43]](#references).
 
 
-H&M is using blockchain technology for traceability in its supply chain. In 2019, the company partnered with TextileGenesis, a blockchain-based platform, to track the production of man-made cellulose and recycled polyester fibers in its products. This allows consumers to see the entire lifecycle of a product from creation to distribution. H&M plans to expand its blockchain usage further by implementing TextileGenesis for all man-made cellulose and recycled polyester products. This move will enable H&M to trace over 200 million garments, promoting transparency and sustainability in the fashion industry. By leveraging blockchain, H&M ensures the authenticity and sustainable production of its products, empowering consumers to make informed and responsible purchasing decisions[[44]](#references).
+H&M is using blockchain technology for traceability in its supply chain. In 2019, the company partnered with TextileGenesis, a blockchain-based platform, to track the production of man-made cellulose and recycled polyester fibers in its products. This allows consumers to see the entire lifecycle of a product from creation to distribution. H&M plans to expand its blockchain usage further by implementing TextileGenesis for all man-made cellulose and recycled polyester products. This move will enable H&M to trace over 200 million garments, promoting transparency and sustainability in the fashion industry. By leveraging blockchain, H&M ensures the authenticity and sustainable production of its products, empowering consumers to make informed and responsible purchasing decisions [[44]](#references).
 
 ## 7. Conclusion
 
-Here, we will conclude stuffs about our overall survey. 
+The world of blockchain technology is rapidly evolving and its potential impact on industries and economies is becoming increasingly evident. In this comprehensive thesis, we have explored various aspects of blockchain, its potential to benefit "Made in Italy" products, and its role in ensuring provenance, traceability and process of a product claimed to be "made in Italy" in supply chains.
+Through our exploration, we have seen how blockchain can be leveraged to enhance the "Made in Italy" brand, promoting local artisans and products to a global audience. By utilizing blockchain in supply chains, such as the example of coffee, we can guarantee the provenance of products, thereby assuring consumers of their authenticity and quality (ofcourse by considering other challanges). Several blockchain technologies and platforms, including Hyperledger Fabric, EBSI, Corda, and NFTs, offer unique features that can be harnessed to address specific challenges in various industries. Each of these technologies comes with its own set of advantages and disadvantages, and businesses must carefully assess their requirements before adopting any particular solution. In particular, Hyperledger Fabric has emerged as a suitable option for certain use cases, offering robust privacy and permission features, making it an attractive choice for enterprises and consortium-based networks. Meanwhile, initiatives like Food Trust by IBM and Walmart & other exisiting cases where enterprises are already using blockchain to gurantee provenance & it shows the power of blockchain to prevent against counterfeiting attacks and italian sounding.
+
+Blockchain technology has already demonstrated its potential to revolutionize numerous industries and countries by delivering enhanced efficiency, trust, and authenticity.  However, its widespread adoption requires continued collaboration, research, and overcoming technical and regulatory challenges. With the right vision and strategic implementation, Italy can be at the forefront of blockchain adoption and innovation, solidifying its position as a global leader in quality craftsmanship and products proudly labeled "Made in Italy."
 
 ## *References*
 
