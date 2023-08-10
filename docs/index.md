@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Blockchain functions as a decentralized and distributed data structure that captures transactions within blocks across numerous systems. It's impact on societal interactions and trade has been transformative. This paper assesses blockchain's applications in diverse domains, particularly its role in bolstering the authenticity of "Made in Italy" products. This is crucial due to the detrimental effects of counterfeiting on Italian products global image and revenue. Blockchain emerges as a pivotal tool in ensuring product provenance, particularly within supply chain management, as its immutable data structure safeguards against tampering. Utilizing traceability solutions based on blockchain can effectively address the limitations associated with centralized traceability systems. This paper also delves into various blockchain technologies, discussing their merits, drawbacks and challenges and identifies the most suitable options. Moreover, it emphasizes present cases in which certain enterprises have utilized blockchain technology to confirm the origin, excellence, genuineness of products, and facilitate the monitoring of processes in supply chain management.
+Blockchain functions as a decentralized and distributed data structure that captures transactions within blocks across numerous systems. It's impact on societal interactions and trade has been transformative. This paper assesses blockchain's applications in diverse domains, particularly its role in bolstering the authenticity of "Made in Italy" products. This is crucial due to the detrimental effects of counterfeiting on Italian products global image and revenue. Blockchain emerges as a pivotal tool in ensuring product provenance, particularly within supply chain management, as its immutable data structure safeguards against tampering. Utilizing traceability solutions based on blockchain can effectively address the limitations associated with centralized traceability systems. This paper also delves into various blockchain technologies, discussing their merits, drawbacks and challenges and identifies the most suitable options and role of Web3, Smart contracts, NFTs in "Made in Italy". Moreover, it emphasizes present cases in which certain enterprises have utilized blockchain technology to confirm the origin, excellence, genuineness of products, and facilitate the monitoring of processes in supply chain management. 
 
 
 ## 1. Introduction
@@ -358,9 +358,33 @@ TextileGenes is a blockchain-based platform for traceability in its supply chain
 
 H&M is using blockchain technology for traceability in its supply chain. In 2019, the company partnered with TextileGenesis, a blockchain-based platform, to track the production of man-made cellulose and recycled polyester fibers in its products. This allows consumers to see the entire lifecycle of a product from creation to distribution. H&M plans to expand its blockchain usage further by implementing TextileGenesis for all man-made cellulose and recycled polyester products. This move will enable H&M to trace over 200 million garments, promoting transparency and sustainability in the fashion industry. By leveraging blockchain, H&M ensures the authenticity and sustainable production of its products, empowering consumers to make informed and responsible purchasing decisions [[44]](https://hmgroup.com/news/hm-group-expands-partnership-with-textilegenesis/).
 
-## 7. Is there any role for Web3 ?
+## 7. What is Web3 and it's role in "Made in Italy" ?
 
+Web1, spanning 1990-2004, offered static online content, making users mere consumers. Web2, the current state, introduced interaction and content upload, with Facebook and YouTube as examples. However, this interactivity raised concerns like privacy and polarization. Web3 aims to shift control to users through blockchain-based networks, maintaining Web2 features. Ad-driven models led to data exploitation, while curated feeds fueled polarization and mental health issues. In contrast, decentralized apps (dapps) in Web3 involve user-driven decisions through token-based governance, addressing Web2's problems. Web3, the emerging paradigm, holds the potential to rectify these issues by shifting control from corporations to users, while retaining the interactive features of Web2. This new model, often described as "read/write/own," utilizes blockchain-based networks and cryptocurrency tokens for user governance. Decisions within these networks are made collectively by token holders, fostering transparency and decentralization. By decentralizing decision-making and eliminating the influence of a single entity, Web3 aims to mitigate problems like biased content curation and data harvesting. This could result in a more equitable and user-centric online environment, potentially addressing the challenges that emerged in the Web2 era [[45]](https://www.forbes.com/sites/digital-assets/article/what-is-web3/).
 
+The expanding global economy continually highlights the significance of supply chain management and logistics, particularly due to shipping delays at major ports and limited product availability. When integrated into these processes, Web3 brings numerous advantages such as decentralized data control, streamlined supply chain component management, and aggregation. Web3 has revolutionized supply chain management and logistics by offering a decentralized and secure data-sharing infrastructure through blockchain technology. This approach enhances transparency, reduces costs, and mitigates risks across the supply chain. **Integrating web3 dosen't mean only blockchain but a blend of technologies like AI, smart contracts, IOT and distributed ledgers**. This empowers seamless coordination among supply chain participants, ensuring compliance, traceability, and efficient data management which gives benefits like improved visibility & transparency, reduced administrative burden, proper monitoring of entire product journey etc. [[46]](https://www.leewayhertz.com/web3-in-supply-chain-logistics/#:~:text=The%20goal%20of%20web3%20for,security%20of%20sensitive%20supply%20chain).
+
+***
+* **How is web3 beneficial for "Made in Italy"** [[46]](https://www.leewayhertz.com/web3-in-supply-chain-logistics/#:~:text=The%20goal%20of%20web3%20for,security%20of%20sensitive%20supply%20chain)?
+
+-> Traceability:-
+Web3 enhances traceability and operational efficiency in Italy's supply chain and logistics. By securely mapping the entire process, Italian products gain transparency. Web3's blockchain empowers Italian enterprises to share verified sourcing and transaction details with consumers.
+
+-> Transparency:-
+Web3 fosters trust and security in the Italian supply chain. Unique hash values ensure authenticity, allowing open access. Blockchain registration and real-time validation maintain transparency throughout the "Made in Italy" journey.
+
+-> Tradability:-
+Web3's tradability feature transforms the Italian supply chain. Tokenizing assets redefines market dynamics, granting legitimate digital ownership. This innovation enhances the allure of Italian goods on the global stage.
+
+-> **Web3 also introduces the use of non-fungible tokens (NFTs) to verify and track product authenticity. NFTs establish distinct digital identities for each item, ensuring traceability across the supply chain. This combats counterfeit products, fostering consumer-brand trust** [[47]](https://dslsingapore.medium.com/the-potential-of-web3-for-supply-chain-management-e6c0972b2e3e).
+
+-> **Cryptography & Smart contracts**:- In Web3 employs advanced techniques to securely manage data and transactions in networks, ledgers, and smart contracts. Access and modification of supply chain information are restricted to authorized parties, ensuring data integrity within decentralized systems. *Smart contracts* automate critical supply chain functions, such as payments, shipping notifications, inspections, and trades, adhering to predefined rules. These contracts minimize paperwork, enhance predictability, and reduce the potential for errors or fraudulent activities among trading partners [[48]](https://vegavid.com/blog/web-3-0-role-in-supply-chain-management/#).
+
+-> Smart contracts also streamline intricate negotiations, agreements, transfers, payments, and other interactions among trading partners, eliminating the need for intermediaries. This automation enhances predictability, reduces disputes, and enables seamless global exchanges. The system's scalability ensures it can accommodate extensive supplier, shipper, carrier, and buyer networks, handling substantial transaction volumes [[48]](https://vegavid.com/blog/web-3-0-role-in-supply-chain-management/#).
+
+***
+
+*Web3 benefits the "Made in Italy" brand by enhancing transparency, traceability, and authenticity across the supply chain. Utilizing blockchain technology and non-fungible tokens (NFTs), it ensures product legitimacy and prevents counterfeits. Smart contracts automate processes like payments and shipping, reducing errors and paperwork. This technology-driven approach boosts consumer trust, minimizes disputes, and expands global market access. By integrating advanced cryptography and decentralized systems, Web3 safeguards supply chain data, offering efficiency and security for Italian products, while promoting Italy's rich heritage of craftsmanship and quality.*
 
 ## 8. Conclusion
 
@@ -467,9 +491,15 @@ Blockchain technology has already demonstrated its potential to revolutionize nu
 
 [43] [TextileGenesis™ is a pioneering traceability platform custom built for the fashion & textile ecosystem](https://textilegenesis.com/)
 
-
-
 [44] [H&M Group expands partnership with TextileGenesis](https://hmgroup.com/news/hm-group-expands-partnership-with-textilegenesis/)
+
+[45] [What is Web3?](https://www.forbes.com/sites/digital-assets/article/what-is-web3/).
+
+[46] [ROLE OF WEB3 IN SUPPLY CHAINS AND LOGISTICS](https://www.leewayhertz.com/web3-in-supply-chain-logistics/#:~:text=The%20goal%20of%20web3%20for,security%20of%20sensitive%20supply%20chain)
+
+[47] [The Potential of Web3 for Supply Chain Management](https://dslsingapore.medium.com/the-potential-of-web3-for-supply-chain-management-e6c0972b2e3e).
+
+[48][ Web 3.0 and its Role in the Supply Chain Management](https://vegavid.com/blog/web-3-0-role-in-supply-chain-management/#).
 
 ***
 
