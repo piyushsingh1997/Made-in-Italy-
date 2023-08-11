@@ -33,32 +33,60 @@ With the addition of each new block, the blockchain expands and serves as a comp
 All transactions are subjected to verification before being appended to the blockchain. Cryptocurrencies operate on this immutable and decentralized technology, making them resistant to counterfeiting and eliminating the need for central authorities, all secured through robust encryption algorithms. Beyond the financial realm, blockchain's widespread adoption is evident as it rapidly advances in various other domains, revolutionizing industries through its ever-evolving potential. For example,
 
 ***
-* **How FORD(an automobile manufacturer) uses blockchain to ensure authenticity :-** [[6]](https://www.blockdata.tech/profiles/ford-blockchain).
+### 1.1 How FORD(an automobile manufacturer) uses blockchain to ensure authenticity :- [[6]](https://www.blockdata.tech/profiles/ford-blockchain).
 
 In January 2019, Ford Motor Company launched a blockchain pilot with IBM to ethically source cobalt. They use **Hyperledger Fabric** to demonstrate responsible production, trade, and processing in the supply chain. The goal is to create an open industry-wide network for tracing and validating minerals and materials used in automotive and consumer electronics. By leveraging blockchain technology, they aim to replace traditional third-party audits with a network of validated participants and real-time accessible immutable data. In late January 2020, Ford and IBM further collaborated to use blockchain for tracing cobalt's source to ensure authenticity and quality for electric car batteries. They are using blockchain technology for tracing the source of cobalt, a crucial component in electric car batteries. The main objective was to ensure the authenticity and quality of the cobalt supplies used by Ford. 
 
 ***
 
-* **Importance of Blockchain :-** 
+### 1.2 Importance of Blockchain :-
 
 In this regard, blockchain technology plays an important role to certify the provenance and products that claims to be "Made in Italy". Blockchain plays an important role in combating food fraud, italian sounding and allow italian companies to defend the numerous high quality productions that are made in Italy. Even non-fungiable tokens could also play a crucial role that allows a creation of unique tokens to digial assets like images, videos and music. It represents a programmable ownership of certificates for digital products allowing creators and companies to sell their digital products while maintaining complete control over the rights. Now, blockchain technology plays in important roles in wine industry [[7]](https://www.mdpi.com/2071-1050/13/23/13070), food industry [[8]](https://www.mdpi.com/2305-6290/4/4/27) etc. The success of of this technology primarily depends upon transparency, reliability and immuatability. 
 
 
 ## 2. *Methodology*
 
-Our Reaserch methodology is characterized by the following steps [[9]](https://www.sciencedirect.com/science/article/pii/S2351978920306181):- 
+Our research methodology is characterized by the four steps [[9]](https://www.sciencedirect.com/science/article/pii/S2215016122002746):- 
 
-1. Data collection
-2. Data selection (Inclusion and exclusion criteria, Digital libraries etc.)
-3. Report, analysis, discussions, comparisons and conclusions. 
+1. Data collection and analysis
+2. Data Library sources 
+3. Inclusion and exclusion criteria
+4. Discussion
 
-In the first step, we're discussing about collection data from various sources like scientific papers, blogs, surveys, online database, publicly available data, statistical information. Scientific papers are obtained based on certain keywords, citations, document type etc. 
+### 2.1 Data collection and analysis
 
-In the second step, that is data selection we are interested describing our selection criteria like what kind of papers or blogs will be included and excluded based on certain criteria (like. period, language of the paper etc.). 
+The initiation of this study involves a meticulous gathering of scientific papers using a predefined set of specific keywords. These keywords, including terms like "Made in Italy," "Blockchain," "Hyperledger Fabric," and "Supply Chain Management" etc. are employed to locate pertinent papers encompassing articles, blogs, and reports. Following the search based on these keywords, I am proceeding to explore official websites associated with various blockchain technologies, along with pertinent blogs and articles relevant to supply chain management particularly "Made in Italy".
 
-In the third step, we are selected papers are reviewed and then the pros and cons of different blockchains technologies, how it will help "Made in Italy", problems, future developments and conclusions. 
+This process is enabling me to access firsthand information from primary sources and acquire insights directly from developers and field experts. By navigating through these authoritative resources, my intention is to deepen the comprehension of the most recent advancements, real-world applications, and emerging trends within the domains of blockchain technology and supply chain management.
 
->> Here, I will write more stuffs in the end. First write other things
+
+### 2.2 Data sources
+
+For this study, I am extensively utilizing a diverse array of data sources to gather comprehensive insights. I'm exploring various avenues, including renowned academic platforms such as the **IEEE Digital Library**, **ScienceDirect**, **Springer Link** and **MDPI**. These platforms offer access to peer-reviewed research articles and scholarly publications, ensuring a solid foundation for my analysis. In addition, I'm exploring official websites of blockchain technologies to gain firsthand information from the developers themselves.
+
+To capture industry perspectives and practical applications, I'm engaging with **blogs**, **articles**, **reports** even **LinkedIn posts** by **experts** in the field. These sources provide valuable insights into real-world experiences and emerging trends. Moreover, I'm exploring **official websites** of organizations like The European Blockchain Services Infrastructure (EBSI), which represents a network of distributed blockchain nodes across Europe.
+
+To contextualize my study, I'm accessing government resources such as the Ministry of Business and "Made in Italy" (mimit.gov.it), which shed light on policy perspectives and initiatives. By meticulously examining this diverse array of data sources, I am presenting a comprehensive analysis that bridges academic research, practical industry insights, and policy considerations. This multifaceted approach enhances the depth and breadth of my study, enabling a well-rounded understanding of the dynamic landscape of blockchain technology and supply chain management.
+
+
+<figure markdown>
+  ![Image title](<bar.png>){ width="500" }
+  <figcaption>Fig 2 :- Number and type of publications used in this paper
+</figcaption>
+</figure>
+
+
+### 2.3 Inclusion and exclusion criteria
+
+| Criteria Type       | Description   | Example|
+| :---------: | :----------------------------------: | :---------: |
+| Period |  Articles have been chosen for evaluation according to specific timeframes as blockchain technology is continously evolving and expanding. | **INCLUSION** :- From 2017 to 2023, **EXCLUSION** :- Papers prior  2017 |  |
+| Type of sources | Articles have been added to or removed from consideration based on their source type | **INCLUSION** :- Articles from scientific papers, official websites, blogs(italian/english), posts, reports, newsletters.          **EXCLUSION** :- Articles from books, Information from videos. |
+| Languange |Articles have been excluded based on language |  **EXCLUSION** :- Conference/Journal papers that are not in English|
+
+### 2.4 Discussion
+
+In the following sections, we'll explore why we are using blockchain, how blockchain can revolutionize *"Made in Italy*." We'll see real use cases in sectors like wine and fashion, highlighting how blockchain ensures authenticity and traceability. Our analysis will encompass diverse blockchain technologies like Hyperledger Fabric, Green Blockchain, Corda, IBSI, and EBSI, evaluating their pros and cons. We'll pinpoint the most suitable technology for "Made in Italy," enabling reliable certification, supply chain tracking, and anti-counterfeiting measures. Through practical examples, we'll illustrate how these advancements benefit industries, preserving their integrity and enhancing the global reputation of "Made in Italy."
 
 ## 3. *How Blockchain can help made in Italy ?*
 
@@ -411,7 +439,7 @@ Blockchain technology has already demonstrated its potential to revolutionize nu
 
 [8] [Blockchain Technology in the Food Industry: A Review of Potentials, Challenges and Future Research Directions](https://www.mdpi.com/2305-6290/4/4/27)
 
-[9] [Blockchain and agricultural supply chains traceability: research trends and future challenges](https://www.sciencedirect.com/science/article/pii/S2351978920306181)
+[9] [How-to conduct a systematic literature review: A quick guide for computer science research](https://www.sciencedirect.com/science/article/pii/S2215016122002746)
 
 [10] [Made in Italy, a blockchain project to combat counterfeiting on international markets](https://www.sardegnaimpresa.eu/it/news/made-italy-progetto-blockchain-contrastare-la-contraffazione-sui-mercati-internazionali).
 
