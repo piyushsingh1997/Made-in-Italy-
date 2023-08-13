@@ -36,3 +36,5 @@ plugins:
   - glightbox
   - search
   - open-in-new-tab
+  - glightbox
+
