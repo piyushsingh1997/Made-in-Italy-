@@ -47,18 +47,7 @@
     
     
     
-   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
-        html.glightbox-open { overflow: initial; height: 100%; }
-        .gslide-title { margin-top: 0px; user-select: text; }
-        .gslide-desc { color: #666; user-select: text; }
-        .gslide-image img { background: white; }
-        
-            .gscrollbar-fixer { padding-right: 15px; }
-            .gdesc-inner { font-size: 0.75rem; }
-            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
-            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="assets/javascripts/glightbox.min.js"></script></head>
+  </head>
   
   
     
@@ -644,7 +633,7 @@
 <p><strong>Blockchain</strong> plays an important role and it can be defined as "an immutable ledger for recording transactions, maintained within a distributed network of mutually untrusted blocks. A blockchain is a list of ordered blocks, where each block stores a variable size list of transactions" <a href="http://docenti.ing.unipi.it/p.perazzo/research/2019%20-%20BRUSCHETTA_%20An%20IoT%20Blockchain-Based%20Framework%20for%20Certifying%20Extra%20Virgin%20Olive%20Oil%20Supply%20Chain.pdf">[3]</a>. A ledger is a computarized record that can store alll the transactions and it is distributed across multiple locations to store the record of the transactions. Somehow, we can say that every distributed ledger represents the kind of Blockchain but vice versa is not true. All blocks are linked according to some semantics.</p>
 <p>Successive segments of the blockchain are interlocked using the cryptographic hash of the preceding block's header. These blocks maintain a sequential chain due to this cryptographic linkage. Apart from the essential cryptographic hash, each block's header comprises a timestamp, nonce, and transaction information. The timestamp in a block is acknowledged as legitimate only if it surpasses the network's adjusted time by over two hours and exceeds the median timestamp of the previous eleven blocks. This safeguard thwarts potential adversaries from tampering with the blockchain's integrity <a href="https://www.sciencedirect.com/science/article/pii/S0167739X23000493">[4]</a>.</p>
 <figure>
-<p><a class="glightbox" href="Blockchain%20photo.PNG" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="Blockchain%20photo.PNG" width="500" /></a>
+<p><img alt="Image title" src="Blockchain%20photo.PNG" width="500" />
   </p>
 <figcaption>Fig 1 :- General structure of a blockchain, in which blocks connected with each
 other through their respective hash codes [4].
@@ -674,7 +663,7 @@ other through their respective hash codes [4].
 <p>To capture industry perspectives and practical applications, I'm engaging with <strong>blogs</strong>, <strong>articles</strong>, <strong>reports</strong> even <strong>LinkedIn posts</strong> by <strong>experts</strong> in the field. These sources provide valuable insights into real-world experiences and emerging trends. Moreover, I'm exploring <strong>official websites</strong> of organizations like The European Blockchain Services Infrastructure (EBSI), which represents a network of distributed blockchain nodes across Europe.</p>
 <p>To contextualize my study, I'm accessing government resources such as the Ministry of Business and "Made in Italy" (mimit.gov.it), which shed light on policy perspectives and initiatives. By meticulously examining this diverse array of data sources, I am presenting a comprehensive analysis that bridges academic research, practical industry insights, and policy considerations. This multifaceted approach enhances the depth and breadth of my study, enabling a well-rounded understanding of the dynamic landscape of blockchain technology and supply chain management.</p>
 <figure>
-<p><a class="glightbox" href="bar.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="bar.png" width="500" /></a>
+<p><img alt="Image title" src="bar.png" width="500" />
   </p>
 <figcaption>Fig 2 :- Number and type of publications used in this paper
 </figcaption>
@@ -712,7 +701,7 @@ other through their respective hash codes [4].
 <p>Blockchain technology can potentially help the "Made in Italy" initiative in several ways, especially in promoting and protecting the authenticity and quality of Italian products. Having said that, counter piracy and counterfeiting have been the major problem.Counterfeiters employ diverse strategies to carry out their illicit activities. These tactics encompass forging legitimate product labels, which might involve falsifying expiration dates, creating replicas of authentic products, or affixing genuine product tags onto counterfeit items. For example, Counterfeit Italian goods which, according to OECD surveys, fuel a turnover of <strong>32 billion euros</strong> on the world market, of which approximately 30% is made up of the agri-food and textile-clothing sectors <a href="https://www.sardegnaimpresa.eu/it/news/made-italy-progetto-blockchain-contrastare-la-contraffazione-sui-mercati-internazionali">[10]</a>.</p>
 <p>According to one of the OECD(Organisation for Economic Co-operation and Development) report, world trade in counterfeit goods (luxury bags, watches, food products, auto parts) has an impact on the Italian economy of about 1-2% of GDP in terms of sales, while trade in counterfeit and pirated goods in the world amounts to 5% of imports into the EU <a href="https://www.oecd.org/gov/illicit-trade/Summary-Brochure-Italy-EN.pdf">[11]</a>.</p>
 <figure>
-<p><a class="glightbox" href="this_one.PNG" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="this_one.PNG" width="800" /></a>
+<p><img alt="Image title" src="this_one.PNG" width="800" />
   </p>
 <figcaption>Fig 3:- Counterfeiters heavily targeted various sectors in Italy [11]
   </figcaption>
@@ -1146,5 +1135,5 @@ Through our exploration, we have seen how blockchain can be leveraged to enhance
         
       
     
-  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+  </body>
 </html>
