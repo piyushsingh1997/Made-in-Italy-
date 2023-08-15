@@ -69,13 +69,6 @@ To capture industry perspectives and practical applications, I'm engaging with *
 To contextualize my study, I'm accessing government resources such as the Ministry of Business and "Made in Italy" (mimit.gov.it), which shed light on policy perspectives and initiatives. By meticulously examining this diverse array of data sources, I am presenting a comprehensive analysis that bridges academic research, practical industry insights, and policy considerations. This multifaceted approach enhances the depth and breadth of my study, enabling a well-rounded understanding of the dynamic landscape of blockchain technology and supply chain management.
 
 
-<figure markdown>
-  ![Image title](<bar.png>){ width="500" }
-  <figcaption>Fig 2 :- Number and type of publications used in this paper
-</figcaption>
-</figure>
-
-
 ### 2.3 Inclusion and exclusion criteria
 
 | Criteria Type       | Description   | Example|
@@ -97,7 +90,7 @@ According to one of the OECD(Organisation for Economic Co-operation and Developm
 
 <figure markdown>
   ![Image title](this_one.PNG){ width="800" }
-  <figcaption>Fig 3:- Counterfeiters heavily targeted various sectors in Italy [11]
+  <figcaption>Fig 2:- Counterfeiters heavily targeted various sectors in Italy [11]
   </figcaption>
 </figure>
 
