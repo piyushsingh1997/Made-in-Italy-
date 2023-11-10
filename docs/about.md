@@ -1,6 +1,15 @@
-1. This website I've hosted on Github just to share information in convenient way(with one click) and eveything it is written in markdown(MKDOCS).
-2. I have tried my best to include citations for each paragraph or sentence, referencing the papers, blogs, or articles I've read online as told by you.
-3.  Sentences or paragraphs where you don't find citations or references they represent the conclusions I have personally drawn from the information I've read online.
-4. Please let me know the feedbacks, changes or if something is wrong. If you can give me appointment for 15 minutes, it would be great to discuss it in person as I get much more clearity in person.
+# Some important Points 
 
-Thanks
+- It is a initial phases of my thesis exploration, I conducted an in-depth analysis of available literature to gain a thorough understanding of blockchain technology. I subsequently applied a tailored methodology. This methodological approach, intricately crafted for the context of my research, guided my exploration into how blockchain could be strategically harnessed to contribute to the advancement of industries associated with the distinctive "Made in Italy" brand.
+
+- While this version represents an initial draft, I am keenly aware that it is subject to refinement based on valuable feedback and the evolving nature of the content. The intention is to use this draft as a foundational reference for subsequent iterations, incorporating insights and improvements. The ultimate goal is to employ this refined version as a guide for implementation in the supply chain. Initially, it will serve as a proof of concept, and subsequently, practical application will be undertaken collaboratively with a dedicated team. 
+
+
+
+
+
+
+
+
+
+

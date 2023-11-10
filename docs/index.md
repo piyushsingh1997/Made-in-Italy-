@@ -1,4 +1,4 @@
-# **Proposals Made in Italy**
+# **Blockchain for Made in Italy (Literature review)** - Preliminary draft
 
 ## Abstract
 
@@ -30,18 +30,169 @@ other through their respective hash codes [4].
 
 With the addition of each new block, the blockchain expands and serves as a comprehensive ledger documenting transaction histories. Through cryptographic methods, the network can authenticate these blocks. Alongside the transaction records, each block incorporates a timestamp, the cryptographic hash of the preceding block (referred to as the "parent" block), and a nonce—a random number that's used to verify the hash. This framework guarantees the integrity of the entire blockchain, including the initial "genesis block." The uniqueness of hash values makes it exceedingly challenging for fraudulent activities to occur, as any alterations to a block would instantaneously alter its corresponding hash value. When a consensus is reached among the majority of network nodes regarding both the legitimacy of transactions within a block and the block itself, it becomes eligible for inclusion in the blockchain [[5]](https://link.springer.com/article/10.1007/s12599-017-0467-3).
 
-All transactions are subjected to verification before being appended to the blockchain. Cryptocurrencies operate on this immutable and decentralized technology, making them resistant to counterfeiting and eliminating the need for central authorities, all secured through robust encryption algorithms. Beyond the financial realm, blockchain's widespread adoption is evident as it rapidly advances in various other domains, revolutionizing industries through its ever-evolving potential. For example,
+Additionally, the consensus mechanism assists parties who lack trust in each other to establish mutual trust.
+The performance and energy consumption of a Blockchain are greatly influenced by these consensus mechanisms. Several methods exist to achieve consensus with some
+prominent consensus algorithms being:-
 
+- Proof of Work (PoW): This protocol relies on computational power to attain
+distributed consensus. PoW utilizes hash algorithms where network nodes
+(PoW-miners) compete to solve complex mathematical problems typically
+demanding significant computing resources. Miners are incentivized with
+rewards to encourage the addition of new blocks.
+- Proof of Stake (PoS): PoS is an alternative protocol for achieving distributed
+consensus. While the goal remains similar to PoW the approach differs. In
+PoS, validators (akin to PoW miners) are chosen in advance based on the
+quantity of cryptocurrencies held in the associated Blockchain known as stake.
+PoS-mining (staking) involves using owned tokens instead of computational
+power. Users with tokens can stake their holdings (temporarily locking the
+tokens) to gain the right to validate a block’s transaction in return.
+- Proof of Capacity (PoC): This is similar to Proof of Work (PoW) but differs
+in its reliance on hard disk capacity instead of computational power. This
+difference significantly reduces energy consumption compared to PoW. Miners
+in PoC store extensive datasets referred to as plots to enhance their chances
+of mining a new block. PermaCoin is a notable example of a cryptocurrency
+that utilizes PoC. In PoC, the block generation time is around 4 minutes but
+it tends to have higher latency.
+- Delegated Proof of Stake (DPoS): This is a variation of the PoS algorithm
+where stakeholders select a node through voting. This chosen node known
+as a witness is tasked with adding new blocks and receiving rewards. In
+the election process a certain number of witnesses denoted as N are chosen
+based on the highest votes from stakeholders ensuring a minimum of 50%
+stakeholder agreement for sufficient decentralization. DPoS includes an in-built
+mechanism to identify any malicious witnesses. A cryptocurrency like Bitshares
+implements DPoS to achieve high throughput and latency. It can process an
+impressive 100,000 transactions per second with an average block addition
+time of 1.5 seconds. However, the cost of establishing the blockchain network
+using DPoS tends to be higher.
+- Proof of Activity (PoA): This is a consensus algorithm that combines
+elements of both PoW and PoS. In this approach miners attempt to solve a
+hash function to discover a new block, similar to PoW. However, the new block
+solely comprises the miner’s address and a header without any transactions.
+The transaction details are subsequently added to this new block. A group
+of validators is then chosen to sign the new block based on the header of the
+solved block in order to achieve consensus. This process utilizes PoS which
+enhances security against various common attacks. However, this mechanism
+tends to introduce higher delays in the process.
+
+In a blockchain network, a new block is essentially a group of transactions added
+by miners using specific blockchain software. The devices running this software
+are called nodes with two primary types: full nodes and lightweight nodes. Full
+nodes store and verify blockchain data ensuring its accuracy while lightweight nodes
+forward information to full nodes due to their limited memory and computing power.
+In the network, any node can propose new transactions which miners collect in a pool
+before selecting and adding them to a new block. If any transaction within a block is
+found to be invalid, the entire block is discarded. The process of generating a block
+involves several steps including token dispatch,transaction broadcasting, transaction
+selection based on factors like block size and fees solving complex computational
+problems through mining and adding a signature using the Proof of Work (PoW)
+algorithm. Once a block is added the network ensures that any alterations are
+computationally impossible thus maintaining the blockchain’s immutability. Other
+miners verify the signature’s authenticity through hash functions and subsequent
+blocks added to the chain serve as confirmations for the previous ones restarting the
+process. Additionally, the concept of provenance is central to blockchain technology
+facilitating the seamless registration of ownership transfers and providing a clear and
+transparent lineage of asset ownership. This feature is particularly advantageous in
+industries such as supply chain management and art authentication where the origin
+and history of a product or asset are critical. Moreover, the automation potential of
+blockchain technology is a game-changer with smart contracts and the availability
+of data across all nodes simplifying the validation process and enabling automated
+workflows. This streamlined automation not only reduces complexities but also
+significantly enhances the overall speed and efficiency of transactions positioning
+blockchain as a catalyst for transformative technological advancements across various
+sectors.
+
+###  1.2 Types of Blockchain
+
+- Public Blockchain: A type of blockchain where anyone can join the network,
+participate in consensus and read or write transactions. Examples:- Bitcoin
+and Ethereum.
+- Private Blockchain: A blockchain that is restricted to a specific group of
+participants who have permission to read, write and validate transactions.
+Often used by organizations for internal purposes.
+- Permissioned Blockchain: Similar to private blockchains these blockchains
+restrict participation to approved users but may allow a larger set of participants
+than a purely private blockchain.
+- Permissionless Blockchain: Permissionless Blockchain: A blockchain where
+there are no restrictions on who can join the network, participate in consensus
+or transact. It is open to anyone and is typically decentralized.
+- Hybrid Blockchain: Hybrid blockchains combine the features of both public
+and private blockchains allowing for the privacy of transactions while enabling
+necessary verification through smart contracts. This approach strikes a balance
+between data confidentiality and transparency permitting controlled access to
+private information within the network. Since it is owned by a private entity
+the immutability of transactions is guaranteed. Businesses can establish their
+permissioned networks alongside publicly accessible ones offering participants
+complete network access with secured identities. The customizable structure
+empowers members to manage transaction visibility and regulate authorized
+blockchain access fostering more efficient collaboration with their stakeholders.
+
+
+Public and private blockchains both employ consensus algorithms for transaction
+validation and maintain synchronized distributed ledgers. However, they differ
+in accessibility. As mentioned, Private blockchains require special permission to
+interact with while public blockchains are open for anyone to access and review
+transaction history earning them the label "permissionless." Another category is
+permissioned or consortium blockchains which combine elements of both private
+and public blockchains. Users need permission to participate or access the network
+but permissioned blockchains can function as public networks with varying access
+levels. In permissioned blockchains, participants are known to the network operator
+and transaction histories remain private. This is advantageous for organizations
+needing internal transparency while maintaining privacy externally. A fourth type,
+the "hybrid blockchain" which blends private and public components and may
+incorporate permissioned features. These three main blockchain types share the
+same underlying technology but address different needs each with its own advantages
+and drawbacks. The primary distinction between public and private blockchains lies
+in their accessibility. Private networks are exclusive with a central entity controlling
+participation and roles including mining and transactions.
+However, this central authority can manipulate, remove or override transactions
+compromising censorship resistance—an inherent weakness of private infrastructure.
+Prominent private blockchains include Morpheus Network (supply chain and logistics),
+Patientory (a medical supply chain app using a private Ethereum implementation)
+and R3’s Corda (designed for highly regulated institutions). Private blockchains are
+ideal for businesses and organizations seeking restricted access ensuring transaction
+records remain private. Transactions in a private blockchain require validation by
+network operators or specific implemented protocols.
 ***
-### 1.1 How FORD(an automobile manufacturer) uses blockchain to ensure authenticity :- [[6]](https://www.blockdata.tech/profiles/ford-blockchain).
+###  1.3 How FORD uses blockchain to ensure authenticity :- [[6]](https://www.blockdata.tech/profiles/ford-blockchain).
 
 In January 2019, Ford Motor Company launched a blockchain pilot with IBM to ethically source cobalt. They use **Hyperledger Fabric** to demonstrate responsible production, trade, and processing in the supply chain. The goal is to create an open industry-wide network for tracing and validating minerals and materials used in automotive and consumer electronics. By leveraging blockchain technology, they aim to replace traditional third-party audits with a network of validated participants and real-time accessible immutable data. In late January 2020, Ford and IBM further collaborated to use blockchain for tracing cobalt's source to ensure authenticity and quality for electric car batteries. They are using blockchain technology for tracing the source of cobalt, a crucial component in electric car batteries. The main objective was to ensure the authenticity and quality of the cobalt supplies used by Ford. 
 
 ***
 
-### 1.2 Importance of Blockchain :-
+###  1.4 Importance of Blockchain :-
 
 In this regard, blockchain technology plays an important role to certify the provenance and products that claims to be "Made in Italy". Blockchain plays an important role in combating food fraud, italian sounding and allow italian companies to defend the numerous high quality productions that are made in Italy. Even non-fungiable tokens could also play a crucial role that allows a creation of unique tokens to digial assets like images, videos and music. It represents a programmable ownership of certificates for digital products allowing creators and companies to sell their digital products while maintaining complete control over the rights. Now, blockchain technology plays in important roles in wine industry [[7]](https://www.mdpi.com/2071-1050/13/23/13070), food industry [[8]](https://www.mdpi.com/2305-6290/4/4/27) etc. The success of of this technology primarily depends upon transparency, reliability and immuatability. 
+
+The worldwide supply chain for everyday products involves a lot of movement
+making it very complicated. Unlike the financial system, there’s no central authority
+watching over the supply chain. Normally, companies need to keep their own records
+of the products they send and receive. This can cause problems even with technology.
+Big companies with many locations and products find it hard to keep track of what
+they have. They also have to deal with things like products getting lost or wasted,
+fake products and not knowing everything about their supply chains. These problems
+can lead to breaking trading rules and harming a company’s reputation. To make
+things better companies are looking for ways to see where their products are where
+they come from and to check if they’re real. Using blockchain in a supply chain
+means all the parties can share the same information. Products can be put on the
+blockchain as tokens and their movements are added as transactions which everyone
+agrees on before it becomes a permanent record. Using an unchangeable record of
+products and transactions in a supply chain has many advantages. First, it helps
+to follow products in real-time. When combined with tools like location-tracking
+devices, keeping an eye on products becomes easier. Second, it proves where products
+come from and if they’re real making customers trust the supply chain more. For
+instance, products claiming to be made from sustainable sources can prove it to
+customers. It also reduces fraud and fake products. Lastly, the clear and open data in
+blockchain can make financial operations in the supply chain smoother. Before it was
+complicated to track money between companies, banks and creditors. With everyone
+agreeing on product availability, location and delivery dates, it’s easier to calculate
+risks and agree on payments. This could also lead to more automated transactions
+using smart contracts. Companies can choose different types of blockchains for their
+supply chains. They don’t always have to use public ones where everyone can see
+the information. They can use private blockchains that only certain people can
+access. These are often liked by big businesses because they can control who sees
+the information. This can help with following rules about money laundering and
+other regulations. On the other hand, as discussed public blockchains let anyone
+take part but everyone can see what’s happening.
 
 
 ## 2. *Methodology*
@@ -94,7 +245,38 @@ According to one of the OECD(Organisation for Economic Co-operation and Developm
   </figcaption>
 </figure>
 
-An Italian startup, IL Mio World at the forefront of the use of this technology, gives an example of how the blockchain can be successfully implemented in the process of brand authentication. IL MIO World, in fact, embeds Near Field Communication (NFC) chips into luxury products, giving products a unique ID that is then connected to data stored on the blockchain. In this way, a digital fingerprint is registered for physical assets. Through the chip, consumers can claim ownership of their products that is provable and verified at any time on the blockchain. They can then ensure that any second-hand products or products bought through third parties or retailers are authentic. On the other hand – in addition to being able to **verify the authenticity of their products and fight counterfeit items** – brands can develop exclusive engagement campaigns for the owners of their authentic products and, for the first time, they can track second and third hand purchases of their products and incentivize interactions like real-time product feedback surveys, which increases brand loyalty [[12]](https://talentgarden.org/en/startup/il-mio-world-armin-zadakbar-2/).
+#### 3.2 Italian beer company uses blockchain for traceability
+irra Peroni, the Italian beer company, has adopted EY Ops Chain Traceability
+to tokenise its beer products using non-fungible tokens (NFTs) on the Ethereum
+blockchain. An NFT serves as an exclusive, non-interchangeable digital representation of an asset, stored securely on a blockchain ledger. This NFT acts as a
+digital certificate authenticating the identity of the asset and is applicable to various
+products, including artworks, photos, and now, food items like meat, seafood, and
+beer. Utilizing EY’s blockchain-as-a-service platform available at blockchain.ey.com,
+Birra Peroni assigns unique NFTs to each batch of its beer, enhancing transparency
+and efficiency within the company’s supply chain. The Italian malt supply chain for
+Peroni beer production was analyzed to identify crucial data sources. These information assets were subsequently acquired and securely notarized on the Ethereum
+blockchain. Some data remained unencrypted, while sensitive commercial information was encrypted to protect confidentiality. This blockchain-backed data, presented
+via multimedia storytelling, is now accessible to consumers through a QR Code on
+bottle labels. The QR Code links to a personalized landing page, adapting content
+based on the scan’s time and location [[12]](https://www.birraperoni.it/news-e-media-comunicati-stampa/birra-peroni-e-la-tracciabilita-in-blockchain-del-malto-100-italiano-una-storia-di-open-innovation/).
+We will see NFTs and it’s importance in the upcoming chapter in detail, but
+they are essentially unique digital assets that represent ownership of a specific item
+or piece of content stored on a blockchain. This technology allows for the verification
+of the authenticity and ownership of digital assets paving the way for new forms of
+digital ownership, trading and Monetization of creative work. NFTs have gained
+significant attention in the art world, enabling artists to sell digital art with proof of
+ownership and provenance, creating new avenues for creators to monetize their work
+directly. Additionally, they have extended beyond art into areas such as collectibles,
+virtual real estate and even tokenized representations of real-world assets. This has
+generated a new wave of interest and investment in the digital economy reshaping
+how we perceive and trade digital content.
+
+Ethereum blockchain plays an important role here which is like a giant,
+decentralized, and secure digital ledger or database that anyone can use. Birra Peroni
+has leveraged non-fungible tokens (NFTs) on the Ethereum blockchain to tokenise
+its beer products. These NFTs serve as distinctive and non-interchangeable digital
+representations of each beer item, securely recorded on the ethereum blockchain.
+We will see about Ethereum blockchain in detail in upcoming chapters.
 
 *** 
 #### 3.1 Blockchain Empowering Italian Companies: Enhancing Traceability and Promoting Made in Italy Products [[13]](https://www.mimit.gov.it/images/stories/documenti/IBM-MISE-2019-INGLESE.pdf)
@@ -157,11 +339,38 @@ Lastly, customer awareness and accessibility to the provenance information conta
 #### 3.3  TrackIT Blockchain Project by the Italian Trade and Investment Agency (ICE)
 The TrackIT blockchain project aims to enhance the distinct Italian character of products abroad. This initiative enables Italian exporting companies in the **agri-food**, **fashion system**, **cosmetics**, and **furniture/design** sectors to trace their production chains through blockchain, all free of charge. By utilizing blockchain tracking, companies can easily and transparently communicate the history of their products, instilling trust and confidence in the final consumers. Moreover, the project helps combat counterfeiting and protect against **Italian Sounding**, safeguarding the authenticity of genuine Italian goods. Additionally, it empowers companies to showcase their commitment to sustainability, allowing them to share the stories behind their products and demonstrate their dedication to responsible practices. Embracing the TrackIT blockchain project provides Italian businesses with a competitive advantage on foreign markets, reaffirming the authenticity and value of their products while fostering stronger connections with international consumers [[17]](https://www.ice.it/it/blockchain).
 
+<figure markdown>
+  ![Image title](trackIT.PNG){ width="500" }
+  <figcaption>Fig 2:- TrackIT blockchain
+  </figcaption>
+</figure>
+
+
+
 The project's primary objective is to register data related to Made in Italy products or production chains on the blockchain. This registration allows consumers to access reliable information about the product's history and the company's background by scanning a dedicated QR code on a web page dedicated to production steps. To ensure the success of TrackIT blockchain, it collaborates with qualified service providers, offering a range of benefits. These include specialized consultancy for mapping supply chains, managing and maintaining the blockchain traceability system, designing and developing programming interfaces (APIs), and creating a user-friendly interface for foreign consumers [[18]](https://www.ilsole24ore.com/art/trackit-blockchain-nasce-progetto-agenzia-ice-tutela-made-italy-AEZME3yB).
 
 By providing transparent and verifiable information through blockchain, TrackIT aims to bolster consumer confidence, combat counterfeiting, and promote the genuine Italian identity of products, giving a competitive edge to participating SMEs in international markets.
 
-***The TrackIT blockchain in Italy uses a private blockchain. A private blockchain is a blockchain that is permissioned, meaning that only authorized users can participate in the network. This makes it a more secure and private blockchain than a public blockchain, which is open to anyone***.
+Although specific details regarding the type of blockchain used by
+TrackIT have not been explicitly revealed but some sources suggest that it is
+based on B-Supply, a blockchain-oriented certification and monitoring system
+for production chains. The platform relies on Smart Contracts to securely and
+unalterably document all relevant information and stages of the production process.
+Notably, TrackIT has selected Flosslab and Net Service, among nine other technology
+partners to assist in the provision of its tracking service.
+Having said that, we can say TrackIT blockchain uses a hybrid blockchain that
+ensures typical benefits of public blockchains – like decentralization, transparency
+and immutability – with the advantages of private blockchains as the controlled
+costs of transactions. The proposed platform is built upon the B-Supply system,
+comprising two key elements: Firstly, there’s a user-friendly portal that allows
+companies to input product details and production stages. These details are securely
+stored on the blockchain and made available on an online showcase. Secondly, there’s
+an online showcase accessible to the end consumer. This feature enables buyers
+to authenticate products, explore their production journey, and gather additional
+information about the company and the purchased product. This can be done by
+scanning a QR code or browsing online. Leverage the essence of Italian products internationally with the innovative TrackIT blockchain project. Easily trace the production chain through blockchain
+at no cost and gain a competitive edge in global markets. As expected, the project aims to enhance, promote, and safeguard the "Made in Italy" brand by providing consumers with a reliable way to verify the authenticity of Italian products through a simple scanning process using a QR code or other smart tag. Apart from ensuring
+the origin and traceability of goods, the project also aims to combat the widespread issue of counterfeit "Made in Italy" products, which significantly impacts the national economy. Furthermore, the project aims to boost the recognition and acceptance of Italian member companies in international markets, thereby contributing to the economic advancement and progress of Italy.
 
 
 ********
@@ -171,7 +380,17 @@ By providing transparent and verifiable information through blockchain, TrackIT 
 As, we discussed the proliferation of counterfeit "Italian" goods has become a growing issue, with the global market for such products estimated to exceed €100 billion. Despite enjoying protected status and regulatory measures, some renowned Italian products like Parmigiano Reggiano face the threat of counterfeiting. This illicit market for counterfeit products, including the imitation of Parmigiano Reggiano, has surged to a staggering value of $2 billion. This figure comes alarmingly close to the legitimate sales revenue of authentic Parmigiano, which stands at approximately $2.7 billion.
 FederItaly has formed a strategic alliance with the ORIGYN Foundation, a Swiss nonprofit organization utilizing advanced blockchain technology to establish the legitimacy, identity, and ownership of valuable assets via digital certificates. This collaboration is designed to combat the menace of counterfeit goods and safeguard both Italian brands and consumers. Leveraging the Internet Computer blockchain, ORIGYN's cutting-edge solution guarantees both transparency and security.
 
+<figure markdown>
+  ![Image title](federitaly.PNG){ width="500" }
+  <figcaption>Fig 2:-  Federitaly
+  </figcaption>
+</figure>
+
 Under this partnership, the "FederItaly 100% Made In Italy" emblem will function as a trusted hallmark of authenticity and excellence. Companies seeking this distinction will undergo a rigorous validation procedure. Once approved, a digital certificate containing vital product particulars will be securely stored on the blockchain, accessible through a QR code scan. The ORIGYN Foundation is enthusiastic about its role in preserving Italy's finest products and creative outputs, thereby fostering increased confidence among consumers and brands alike. [[19]](https://medium.com/@ORIGYN-Foundation/tradition-meets-innovation-a-digital-certificate-for-authentic-italian-products-7f61c98e5687).
+
+This solution combines physical verification with digital authentication in a user friendly manner for both companies and consumers. In summary, FEDERITALY will establish a rigorous procedure to authenticate and track the supply chain of products made in Italy. If a product successfully completes this verification process,
+it will receive a digital certificate, stored as a non-fungible token on the Internet Computer blockchain. This certificate will encompass critical information, including the product’s origin and manufacturer, and can be easily accessed by scanning the product’s QR code through the ORIGYN certification platform which
+uses cutting-edge blockchain technology. The Internet Computer blockchain which runs under the control of a decentralized, permissionless governance system enables the creation of scalable, user-friendly, cost-effective, and environmentally friendly solutions on the blockchain. ICP allows the development of large-scale on-chain solutions that operate at the speed of the web. This provides end-users with a blockchain experience that resembles the ease of use and speed of traditional web applications (web2)
 
 *** 
 
@@ -420,9 +639,12 @@ Web3's tradability feature transforms the Italian supply chain. Tokenizing asset
 ## 8. Conclusion
 
 The world of blockchain technology is rapidly evolving and its potential impact on industries and economies is becoming increasingly evident. In this comprehensive thesis, we have explored various aspects of blockchain, its potential to benefit "Made in Italy" products, and its role in ensuring provenance, traceability and process of a product claimed to be "made in Italy" in supply chains.
-Through our exploration, we have seen how blockchain can be leveraged to enhance the "Made in Italy" brand, promoting local artisans and products to a global audience. By utilizing blockchain in supply chains, such as the example of coffee, we can guarantee the provenance of products, thereby assuring consumers of their authenticity and quality (ofcourse by considering other challanges). Several blockchain technologies and platforms, including Hyperledger Fabric, EBSI, Corda, and NFTs, offer unique features that can be harnessed to address specific challenges in various industries. Each of these technologies comes with its own set of advantages and disadvantages, and businesses must carefully assess their requirements before adopting any particular solution. In particular, Hyperledger Fabric has emerged as a suitable option for certain use cases, offering robust privacy and permission features, making it an attractive choice for enterprises and consortium-based networks. Meanwhile, initiatives like Food Trust by IBM and Walmart & other exisiting cases where enterprises are already using blockchain to gurantee provenance & it shows the power of blockchain to prevent against counterfeiting attacks and italian sounding.
+Through our exploration, we have seen how blockchain can be leveraged to enhance the "Made in Italy" brand, promoting local artisans and products to a global audience. By utilizing blockchain in supply chains, such as the example of coffee, we can guarantee the provenance of products, thereby assuring consumers of their authenticity and quality (ofcourse by considering other challanges). Several blockchain technologies and platforms, including Hyperledger Fabric, EBSI, Corda, and NFTs, offer unique features that can be harnessed to address specific challenges in various industries. Each of these technologies comes with its own set of advantages and disadvantages, and businesses must carefully assess their requirements before adopting any particular solution. In particular, Hyperledger Fabric has emerged as a suitable option for certain use cases, offering robust privacy and permission features, making it an attractive choice for enterprises and consortium-based networks. Meanwhile, initiatives like Food Trust by IBM and Walmart & other exisiting cases where enterprises are already using blockchain to gurantee provenance & it shows the power of blockchain to prevent against counterfeiting attacks and italian sounding.  However, it’s important to note that the choice of blockchain ultimately depends on specific use cases, requirements, and various other factors. We’ve observed how initiatives like IBM’s Food Trust and TrackIT project, FederItaly along with many Italian companies and other luxury brands are already using blockchain to ensure the authenticity and traceability of products highlighting the power of blockchain in combating counterfeiting and protecting their brands and products labeled as "Made in Italy." Another famous examples in shipping are Maersk, a big shipping company made a new system with IBM called TradeLens. It uses blockchain to help them and their partners share data quickly and documents in real-time which makes dealing with shipping papers faster and cheaper. Then
+there’s ShipChain back of Ethereum blockchain technology, another system that uses
+blockchain. It helps people who send things, people who carry them, and people
 
-Blockchain technology has already demonstrated its potential to revolutionize numerous industries and countries by delivering enhanced efficiency, trust, and authenticity.  However, its widespread adoption requires continued collaboration, research, and overcoming technical and regulatory challenges. With the right vision and strategic implementation, Italy can be at the forefront of blockchain adoption and innovation, solidifying its position as a global leader in quality craftsmanship and products proudly labeled "Made in Italy."
+
+Blockchain technology has already demonstrated its potential to revolutionize numerous industries and countries by delivering enhanced efficiency, trust, and authenticity.  However, its widespread adoption requires continued collaboration, research, and overcoming technical and regulatory challenges. With the right vision and strategic implementation, Italy can be at the forefront of blockchain adoption and innovation, solidifying its position as a global leader in quality craftsmanship and products proudly labeled "Made in Italy." 
 
 ## *References*
 

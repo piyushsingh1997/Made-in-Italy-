@@ -28,11 +28,14 @@ theme:
 
 nav:
     - Table of Contents: 'index.md'
-    - Read Me: 'about.md'
+    - Read Me Please: 'about.md'
 markdown_extensions:
   - attr_list
   - md_in_html
 plugins:
   - search
   - open-in-new-tab
+extra:
+  generator: false
+
 
